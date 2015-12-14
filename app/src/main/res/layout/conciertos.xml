@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20px"
+                    android:layout_height="150dp"
+                    android:id="@+id/navarra"
+                    android:background="@drawable/navarrra" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20px"
+                    android:layout_height="150dp"
+                    android:id="@+id/lopez"
+                    android:background="@drawable/lopez" />
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20px"
+                    android:layout_height="150dp"
+                    android:id="@+id/inter"
+                    android:background="@drawable/inter" />
+
+
+                <ImageButton
+                    android:layout_width="395dp"
+                    android:layout_marginTop="20px"
+                    android:layout_height="150dp"
+                    android:id="@+id/congresos"
+                    android:background="@drawable/congresos" />
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</LinearLayout>

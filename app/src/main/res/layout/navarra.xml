@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5A72A4">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:padding="20px"
+                android:layout_width="363dp"
+                android:layout_height="210dp"
+                android:src="@drawable/navarra9"
+                android:id="@+id/imageView" />
+
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:padding="20px"
+                android:layout_width="363dp"
+                android:layout_height="210dp"
+                android:src="@drawable/navarra10"
+                android:id="@+id/imageView2" />
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:padding="20px"
+                android:layout_width="363dp"
+                android:layout_height="210dp"
+                android:src="@drawable/navarra11"
+                android:id="@+id/imageView3" />
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:padding="20px"
+                android:layout_width="363dp"
+                android:layout_height="210dp"
+                android:src="@drawable/navarra12"
+                android:id="@+id/imageView4" />
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:padding="20px"
+                android:layout_width="363dp"
+                android:layout_height="210dp"
+                android:src="@drawable/navarra13"
+                android:id="@+id/imageView5" />
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:padding="20px"
+                android:layout_width="363dp"
+                android:layout_height="210dp"
+                android:src="@drawable/navarra14"
+                android:id="@+id/imageView6" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
